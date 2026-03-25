@@ -120,7 +120,7 @@ $ y_1(x) = frac(1, 8(1+x^2)^2) - frac(1,8). $<eq:y1>
 
 The complete outer solution, valid away from $x = 1$, is therefore
 
-$ y_"out"(x) = frac(1,2) arctan(x) + epsilon lr([frac(1, 8(1+x^2)^2) - frac(1,8)]) + O(epsilon^2). $<eq:outer>
+$ y_"out" (x) = frac(1,2) arctan(x) + epsilon lr([frac(1, 8(1+x^2)^2) - frac(1,8)]) + O(epsilon^2). $<eq:outer>
 
 #quote-box[
 #set text(fill: black)
