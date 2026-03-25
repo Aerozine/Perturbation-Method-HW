@@ -245,13 +245,13 @@ expansions, confirming consistency.
 
 The common asymptotic expansion in the overlap region is
 
-$ y_"match"(x) = frac(pi,8) + frac(x-1,4) - frac(3 epsilon,32). $<eq:ymatch>
+$ y_"match" (x) = frac(pi,8) + frac(x-1,4) - frac(3 epsilon,32). $<eq:ymatch>
 
 == Composite Solution
 
 The uniformly valid composite solution is constructed as
 
-$ y_"comp"(x) = y_"out"(x) + YY_"in"(XX) - y_"match"(x), $<eq:composite-formula>
+$ y_"comp" (x) = y_"out" (x) + YY_"in" (XX) - y_"match" (x), $<eq:composite-formula>
 
 where $y_"match"$ is subtracted once to avoid double-counting the common part
 present in both $y_"out"$ and $YY_"in"$.
@@ -261,7 +261,7 @@ into @eq:composite-formula and simplifying, noting that
 $e^(-4 XX) = e^(4(x-1) slash epsilon)$, the result is
 
 $
-y_"comp"(x) = frac(1,2) arctan(x)
+y_"comp" (x) = frac(1,2) arctan(x)
   - frac(pi(2-x),8) e^(4(x-1) slash epsilon) \
   - frac(pi(1-x)^2, 4 epsilon) e^(4(x-1) slash epsilon)
   + epsilon lr([frac(1,8(1+x^2)^2) - frac(1,8) + frac(3,32) e^(4(x-1) slash epsilon)])
@@ -282,11 +282,11 @@ y_"comp"(x) = frac(1,2) arctan(x)
 is transcendentally small for any fixed $epsilon > 0$. Consequently all
 exponential terms vanish and
 
-$ y_"comp"(0) approx frac(1,2) arctan(0) + epsilon lr([frac(1,8) - frac(1,8)]) = 0. $
+$ y_"comp" (0) approx frac(1,2) arctan(0) + epsilon lr([frac(1,8) - frac(1,8)]) = 0. $
 
 - *At $x = 1$:* one has $e^0 = 1$ and $(1-x)^2 = 0$, so
 
-$ y_"comp"(1) = frac(pi,8) - frac(pi,8) - 0 + epsilon lr([frac(1,32) - frac(1,8) + frac(3,32)]) = 0 + epsilon dot 0 = 0. $
+$ y_"comp" (1) = frac(pi,8) - frac(pi,8) - 0 + epsilon lr([frac(1,32) - frac(1,8) + frac(3,32)]) = 0 + epsilon dot 0 = 0. $
 
 Both boundary conditions are satisfied exactly.
 
