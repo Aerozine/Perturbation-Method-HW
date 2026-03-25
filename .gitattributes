@@ -1,0 +1,4 @@
+*.jl linguist-language=Julia
+*.py linguist-language=Python
+*.tex linguist-language=Ignore
+*.typ linguist-language=Ignore
